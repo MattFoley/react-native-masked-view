@@ -11,6 +11,7 @@
 		465C8B631AFBCD9E003B5C69 /* RNMaskedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C8B621AFBCD9E003B5C69 /* RNMaskedView.m */; };
 		465C8B691AFBCD9E003B5C69 /* libRNMaskedView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 465C8B5D1AFBCD9E003B5C69 /* libRNMaskedView.a */; };
 		465C8B791AFBD0F8003B5C69 /* RNMaskedViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 465C8B781AFBD0F8003B5C69 /* RNMaskedViewManager.m */; };
+		D9BBC8FD1D08A76300BD0BE8 /* MaskedView.ios.js in Resources */ = {isa = PBXBuildFile; fileRef = D9BBC8FC1D08A76300BD0BE8 /* MaskedView.ios.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		465C8B6E1AFBCD9E003B5C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		465C8B771AFBD0C6003B5C69 /* RNMaskedViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNMaskedViewManager.h; sourceTree = "<group>"; };
 		465C8B781AFBD0F8003B5C69 /* RNMaskedViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNMaskedViewManager.m; sourceTree = "<group>"; };
+		D9BBC8FC1D08A76300BD0BE8 /* MaskedView.ios.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MaskedView.ios.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		465C8B541AFBCD9E003B5C69 = {
 			isa = PBXGroup;
 			children = (
+				D9BBC8FC1D08A76300BD0BE8 /* MaskedView.ios.js */,
 				465C8B5F1AFBCD9E003B5C69 /* RNMaskedView */,
 				465C8B6C1AFBCD9E003B5C69 /* RNMaskedViewTests */,
 				465C8B5E1AFBCD9E003B5C69 /* Products */,
@@ -188,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BBC8FD1D08A76300BD0BE8 /* MaskedView.ios.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

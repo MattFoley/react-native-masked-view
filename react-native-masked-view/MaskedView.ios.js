@@ -1,11 +1,25 @@
-/**
+/*
  * @providesModule MaskedView
- * @flow
  */
 
- 'use strict';
 
- var { requireNativeComponent } = require('react-native');
- var MaskedView = requireNativeComponent('RNMaskedView', null);
+import React from 'react-native';
 
- module.exports = MaskedView;
+class MaskedView extends React.Component {
+  render() {
+    return (
+      <RNMaskedView {...this.props}/>
+    );
+  }
+}
+
+MaskedView.propTypes = {
+  maskImage: React.PropTypes.string,
+  maskRefs: React.PropTypes.array,
+  shouldUnionRefs: React.PropTypes.bool,
+  maskCornerRadius: React.PropTypes.number,
+  insets: React.PropTypes.object,
+}
+
+let RNMaskedView = React.requireNativeComponent('RNMaskedView', MaskedView);
+export default MaskedView;
